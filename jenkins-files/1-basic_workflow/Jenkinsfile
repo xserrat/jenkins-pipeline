@@ -1,0 +1,7 @@
+#!groovy​
+agent{ docker 'php:7.1' }
+stage 'build'
+node{
+    checkout scm
+    sh 'composer install'
+}

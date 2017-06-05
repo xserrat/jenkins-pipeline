@@ -1,0 +1,21 @@
+{
+    "name": "xserrat/jenkins-pipeline",
+    "description": "Some jenkins pipeline examples",
+    "type": "php",
+    "require": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xavier Serrat Bordas",
+            "email": "xavier.serrat22@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Calculator\\": "src/Calculator", "CalculatorTest\\": "test/Calculator"}
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
